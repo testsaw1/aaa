@@ -1,0 +1,10 @@
+reviews:
+  profile: assertive
+  behavior:
+    code_guidelines:
+      enabled: true
+      filePatterns:
+        - files: "hackerr:GUIDE.md"
+          applyTo: "**/*.js"
+        - files: "testsaw1/hackerr:GUIDE.md"
+          applyTo: "**/*.js"
